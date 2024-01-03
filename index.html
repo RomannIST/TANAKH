@@ -61,7 +61,8 @@ function showMenu() {
 }
 
 function showText1() {
-  document.getElementById("text").innerHTML = `<table>
+  document.getElementById("backButton").style.display = "block";
+    document.getElementById("text").innerHTML = `<table>
   <tr>
      <th>No</th>
      <th>Иврит</th>
@@ -583,7 +584,7 @@ function showText2() {
   `;
   document.getElementById("menu").style.display = "none";
   document.getElementById("text").style.display = "block";
-  document.getElementById("backButton").style.display = "block";
+  
 }
     function showText3() {
       document.getElementById("text").innerHTML = `<table>
